@@ -10,7 +10,7 @@ TOKEN=''
 CHAT_ID=-1111111111111
 ```
 
-You'll also need a Heroku app. After pushing the content of your repository to your Heroku app git repository, you have to run the following line:
+You'll also need a Heroku app with the [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler) add-on already installed. After pushing the content of your repository to your Heroku app git repository, you have to run the following line:
 
 ```
 heroku ps:scale bot=1
