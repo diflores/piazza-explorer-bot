@@ -10,17 +10,6 @@ TOKEN=''
 CHAT_ID=-1111111111111
 ```
 
-You'll also need a Heroku app with the [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler) add-on already installed. After pushing the content of your repository to your Heroku app git repository, you have to run the following line:
-
-```
-heroku ps:scale bot=1
-```
-
-Then, you will be able to see your application logs using:
-
-```
-heroku logs
-```
 
 ## Future work
 
